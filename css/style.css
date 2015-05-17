@@ -1,0 +1,340 @@
+body {
+    font-family: fantasy;
+}
+
+nav {
+    font-family: 'Exo', sans-serif;
+    background-color: cornflowerblue;
+    position: fixed;
+    height: 64px;
+    line-height: 2;
+    z-index: 100;
+}
+
+#mainWrapper {
+    display: block;
+    padding-top: 64px;
+}
+
+
+#wrapperOne {
+    width: 100%;
+    height: 720px;
+    background-color: black;
+    background-image: url("../img/StudioClose.jpeg");
+    background: cover;
+    background-repeat: no-repeat;
+    color: #FFF794;
+}
+
+#name {
+    padding-left: 1%;
+}
+
+#myName {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 6em;
+    height: 44%;
+    width: 90%;
+    white-space: nowrap;
+}
+
+
+#myAbout {
+    text-align: center;
+    font-family: 'Exo', sans-serif; 
+    font-size: 1.4em;
+    line-height: 1.6;
+}
+
+#pref {
+    padding: 10px;
+    height: 10%;
+    font-size: 1.4em;
+}
+
+#list {
+    font-size: 3.2em;
+    line-height: 1.4;
+    text-align: right;
+    word-spacing: 70px;
+    margin-left: 5%;
+}
+
+#lang {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.about{
+    width: 60%;
+    line-height: 1;
+}
+
+
+/*/////////////////////////////*/
+
+
+#wrapperTwo {
+    width: 100%;
+    height: 720px;
+    background-color:fuchsia;
+    display:inline-flex;
+}
+
+
+.section {
+    display: block;
+    background-color:aquamarine;
+    width: 33.333%;
+    height: 100%;
+}
+
+.section.one {
+    float: left;
+    background-color: crimson;
+}
+
+.section.three {
+    float: left;
+    background-color: aqua;
+}
+
+.head {
+    letter-spacing: 4px;
+    font-size: 1.8em;
+    padding-top: 2%;
+    text-align: center;
+    width: 70%;
+    height: 8%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkorchid;
+}
+
+
+.cont {
+    font-family: 'Exo', sans-serif;
+    font-size: 1.2em;
+    padding-top: 10%;
+    width: 80%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:azure;
+}
+
+.cont p {
+    text-align: center;
+    line-height: 3;
+}
+
+
+/*/////////////////////////////*/
+
+#wrapperThree {
+    width: 100%;
+    height: 720px;
+    background-color:#6477A4;
+}
+
+#labelwrapper {
+    width: 90%;
+    height: 13%;
+    background-color:#2E4172;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: medium;
+}
+
+#labelThree {
+    display: inline-flex;
+    float: right;
+    width: 45%;
+    height: 100%;
+    padding-top: 10px;
+    font-size: 3em;
+    letter-spacing: 10px;
+    color: aliceblue;
+}
+
+#a{
+    color: red;
+    font-size: 1.3em;
+}
+
+#a100Content {
+    font-family: 'Exo', sans-serif;
+    background-color:white;
+    height: 80%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: medium;
+}
+
+.a100Cont {
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: auto;
+}
+
+
+.a100Cont.two {
+    height: 90%;
+    line-height: 3;
+}
+
+.sub {
+    width: 49%;
+    height: 95%;
+    float: left;
+    font-size: 1.4em;
+}
+
+.sub.two{
+    float: right;
+}
+
+div.image {
+    float: right;
+   content:url(../img/205102_183572521786491_1739947956_n.png);
+}
+/*/////////////////////////////*/
+
+#slide-4 {
+    background-color: black;
+}
+#trackWrapper {
+    height: 30%;
+    width: 100%;
+    background-color:black;
+    display: inline-flex;
+}
+#imageWrapper {
+    width: 100%;
+    height: 70%;
+    background-color:black;
+}
+
+#trackText {
+    width: 29%;
+    height: 100%;
+    color: #FFF794;
+    padding-left: 8%;
+    padding-top: 4%
+}
+
+#track {
+    float: right;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.imageSection {
+    width: 24.8%;
+    height: auto;
+    background-color:azure;
+    float: left;
+}
+
+#imageOne {
+    content:url(../img/musicProfile.jpg);
+    height: auto;
+    width: auto;
+}
+#imageTwo {
+    content:url(../img/IMG_8326.JPG);
+    float: right;
+    height: auto;
+    width: auto;
+}
+
+#imageThree {
+    content:url(../img//IMG_8375.JPG);
+    height: auto;
+    width: 35.9%;
+}
+
+#sneakyTrack {
+    height: 20%;
+    width: 35%;
+    background-color: aqua;
+    float: right;
+}
+
+
+/*/////////////////////////////*/
+
+#wrapperFive {
+    height: 100px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+
+.inf {
+    display: inline-flex;
+    padding-right: 86px;
+}
+
+
+nav a {
+    /*display: block;*//*padding for top and bottom*/ 
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Links */
+a {
+    color: #FFF794;
+    text-decoration:none;
+}
+
+/*Lists*/
+li {
+    font-family: 'Exo', sans-serif;
+    float: left;
+    padding: 5px
+}
+
+/*media query section*/
+/*Mid Size*/
+@media screen and (max-width: 1260px) {
+    
+    #wrapper {
+        margin-left: 150px;
+        margin-top: 0px;
+
+    
+    nav {
+        width: 150px;
+        height: 100%;
+    }
+    
+    li {
+        float: none;
+        padding: 4px;
+        padding-top: 26px;
+    }
+    
+    nav a {
+        /*display: block;*//*padding for top and bottom*/ 
+        padding: 0px;
+        padding-top: 10px;
+    }    
+}
